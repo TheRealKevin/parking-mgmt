@@ -1,0 +1,42 @@
+.settings-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .settings-header {
+        font-size: 42px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 500;
+    }
+
+    .settings-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        width: 50%;
+
+        .settings-option {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: fit-content;
+        }
+        label {
+            font-size: 20px;
+        }
+
+        input {
+            margin-top: 6px;
+            min-width: 18em;
+            height: 37px;
+            padding: 0px 10px;
+            font-size: 16px;
+            font-family: sans-serif;
+            border: 1px solid black;
+            border-radius: 4px;
+            margin-bottom: 31px;
+        }
+    }
+}

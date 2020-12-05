@@ -1,0 +1,16 @@
+  .pay-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+
+    .email-label {
+      font-size: 25px;
+    }
+
+    .email {
+        margin : 50px;
+        font-size: 25px;
+    }
+  }
